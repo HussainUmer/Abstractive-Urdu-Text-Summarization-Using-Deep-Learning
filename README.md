@@ -20,12 +20,12 @@ This project focuses on abstractive text summarization for Urdu using deep learn
 - **Performance**: **mBART** outperformed **mT5** in terms of fluency, coherence, and context, producing more human-like summaries.
 
 ## **Hyperparameters (for mBART)**
-- **Learning Rate**: 3e-5
+- **Learning Rate**: 5e-5
 - **Batch Size**: 4
 - **Number of Beams**: 5
 - **N-Gram Size**: 2
 - **Length Penalty**: 1.0
-- **Epochs**: 2
+- **Epochs**: 3
 - **Precision**: fp16
 - **Max Tokens**: 1024
 
